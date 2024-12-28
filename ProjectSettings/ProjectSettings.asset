@@ -930,11 +930,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 1f303374-51f9-494e-85e5-cdcfce1153b1
+  cloudProjectId: b3b0abb5-d3c5-4b9a-9642-b964ff113971
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: KitchenChaos
-  organizationId: unity_d3132050821f50d87875
+  organizationId: silviudbv
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
