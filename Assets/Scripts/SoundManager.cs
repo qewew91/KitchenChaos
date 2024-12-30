@@ -19,12 +19,12 @@ public class SoundManager : MonoBehaviour
         CuttingCounter.OnAnyCut += CuttingCounter_OnAnyCut;
         Player.Instance.OnPickedSomething += Player_OnPickedSomething;
         BaseCounter.OnAnyObjectPlacedHere += BaseCounter_OnAnyObjectPlacedHere;
-        TrashCouner.OnAnyObjectTrashed += TrashCouner_OnAnyObjectTrashed;
+        TrashCounter.OnAnyObjectTrashed += TrashCouner_OnAnyObjectTrashed;
     }
 
     private void TrashCouner_OnAnyObjectTrashed(object sender, System.EventArgs e)
     {
-        TrashCouner trashCouner = sender as TrashCouner;
+        TrashCounter trashCouner = sender as TrashCounter;
         PlaySound(audioClipReferencesSO.trash, trashCouner.transform.position);
     }
 
